@@ -1,13 +1,106 @@
-.OS {
-    font-family: 'Open Sans';
-    font-style: italic;
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 10%;
+}
+
+{}
+
+h2 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.cool-blue {
+    background-color: #2d5dcc;
+    color: #fff;
+}
+
+.pink {
+    background-color: #d957d9;
+    color: #000;
+}
+
+.mint-green {
+    background-color: #4fe0b0;
+}
+
+.beige {
+    background-color: #efd9ca;
+}
+
+.font-container {
+    width: 100%;
+}
+
+.font-panel {
+    width: 32%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.open-sans {
+    font-family: 'open-sans', sans-serif;
+}
+
+.montserrat {
+    font-family: 'montserrat', sans-serif;
+}
+
+.oswald {
+    font-family: 'oswald', sans-serif;
+}
+
+.regular {
     font-weight: 300;
 }
 
-.MS {
-    font-family: 'Montserrat';
+.italic {
+    font-weight: 300;
+    font-style: italic;
 }
 
-.OW {
-    font-family: 'Oswald';
+.bold {
+    font-weight: 800;
+}
+
+.text-panel h1 {
+    font-weight: 800;
+    font-style: 26px;
+    font-family: 'open-sans', sans-serif;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-style: 20px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-style: 14px;
+    font-family: 'montserrat', sans-serif;
 }
